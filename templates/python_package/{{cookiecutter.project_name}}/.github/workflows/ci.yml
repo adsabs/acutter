@@ -47,11 +47,11 @@ jobs:
       - run: pip install '.[dev]'
 
       - name: Test with Pytest
-        run: pytest --cov=./ --cov-report=xml
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
-        with:
-          token: {% raw %}${{ secrets.CODECOV_TOKEN }}{% endraw %}
+        run: pytest
+      - name: Upload coverage data to coveralls.io
+        run: coveralls
+        env:
+          GITHUB_TOKEN: {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
 
   docs:
     runs-on: ubuntu-latest

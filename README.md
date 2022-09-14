@@ -36,7 +36,7 @@ The newly cut project will have those:
 [myst]: https://myst-parser.readthedocs.io
 [pylabels]: https://github.com/hackebrot/labels
 [gh-secrets]: https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
-[codecov]: https://codecov.io/
+[coveralls]: https://coveralls.io/
 [pypi]: https://pypi.org/
 [create-pat]: https://github.com/settings/tokens/new?scopes=repo
 

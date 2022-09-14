@@ -5,8 +5,8 @@
 ![CI Status](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/actions/workflows/ci.yml/badge.svg)
 
   <!--
-  <a href="https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}">
-    <img src="https://img.shields.io/codecov/c/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?logo=codecov&logoColor=fff&style=flat-square" alt="Test coverage percentage">
+  <a href="https://coveralls.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}">
+    <img src="https://coveralls.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/badge.svg?branch=main" alt="Test coverage percentage">
   </a>
   //-->
 </p>
